@@ -1,0 +1,17 @@
+dir - Directory for ACE velocity data
+corr_arr - Trace of correlation functions (array of lags, array of correlation functions) for the entire time period
+corr_arr_new - Interpolated correlation functions 
+corr_arr2_new - Interpolated correlation functions using scaled array of lags(lag_new)
+corr_arr2 - 
+corr_mean - Mean of correlation functions computed using the interpolated correlation functions
+corr_mean2 - Mean of correlation functions after second normalisation
+corr_mean_fast
+corr_arr_fast - Trace of correlation functions for the fast solar wind (array of lags, array of correlation functions) for the entire time period
+corr_arr2_fast - Interpolated correlation functions for the fast solar wind
+corr_len - Correlation length computed using a linear fit of the log of the correlation functions from 0 to half the correlation time found from the 1/e method
+corr_len_fast - Correlation length computed from corr_arr_fast using a linear fit as described above
+lag
+lag_new - Scaled array of lags (lag/corr_len)
+lag_new_fast - Scaled array of lags for the fast solar wind
+stdev_arr - Standard deviation of correlation functions after second normalisation
+stdev_arr_fast - Standard deviation of correlation functions after second normalisation for the fast solar wind
